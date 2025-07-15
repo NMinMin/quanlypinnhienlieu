@@ -110,7 +110,7 @@ function fetchAndRender() {
   fetch(apiURL)
     .then(res => res.json())
     .then(data => {
-      const recent = data.slice(-300);
+      const recent = data.slice(-5000);
       const latest = recent.at(-1);
 
       if (!latest) return;
