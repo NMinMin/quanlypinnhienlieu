@@ -258,9 +258,9 @@ function updateChart(chartID, infoID, label, values, times, unit, callback) {
 
   function getChartOptions(label, values, times) {
     let color = "#F3C623";
-    if (label.includes("V_FC")) color = "#007BFF";
-    else if (label.includes("P_in")) color = "#537D5D";
-    else if (label.includes("V_H2")) color = "#00CFCF";
+    if (label.includes("Điện áp")) color = "#007BFF";
+    else if (label.includes("Áp suất vào")) color = "#537D5D";
+    else if (label.includes("Hydrogen")) color = "#00CFCF";
     else if (label.includes("Hiệu suất")) color = "#17a2b8";
     else if(label.includes("P_in")) color ="#28a745";
     else if(label.includes("Công suất")) color ="#537D5D";
